@@ -1,1 +1,15 @@
+nav	{
+	border: 1px solid black;
+	display: fixed;
+	padding-right: 60px;
+	padding-left: 60px;
+}
 
+li {
+	display: inline-block;
+	margin-left: 30px;
+}
+img	{
+	height: 50px;
+	position: absolute;
+}
