@@ -3,13 +3,22 @@ nav	{
 	display: fixed;
 	padding-right: 60px;
 	padding-left: 60px;
+	background-color: gray;
+	padding-top: 10px; 
 }
 
 li {
 	display: inline-block;
 	margin-left: 30px;
 }
+li::after {
+	content: "|";
+	padding-left: 10px;
+}
+
 img	{
-	height: 50px;
+	height: 40px;
 	position: absolute;
+	border-radius: 60%;
+	border: 1px solid black;
 }
