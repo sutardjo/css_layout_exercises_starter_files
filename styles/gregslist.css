@@ -7,6 +7,9 @@ nav {
   width: 100%;
   padding-top: 10px
 }
+
+/* Navigation Bar */
+
 #home {
   color: black;
   padding-left: 10px;
@@ -23,6 +26,9 @@ nav {
   display: inline-block;
   padding-right: 20px;
 }
+
+/* Search Bar */
+
 .search {
   padding-top: 100px;
   padding-left: 75px;
@@ -71,4 +77,23 @@ nav {
 }
 .count {
   width: 180px;
+}
+
+/* Job Listings */
+
+.listings  {
+  margin-left: 75px;
+  margin-top: 40px;
+}
+.job > * {
+  display: inline-block;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+.date, .location {
+  color: gray;
+}
+.jobtitle{
+  color: blue;
+  font-weight: 900;
 }
