@@ -16,7 +16,7 @@ li::after {
 	padding-left: 10px;
 }
 
-img	{
+#icon {
 	height: 40px;
 	position: absolute;
 	border-radius: 60%;
@@ -30,4 +30,17 @@ img	{
 	position: relative;
   	top: 50%;
   	transform: translateY(50%);
+}
+#cat, #dog {
+	height: 200px;
+	width: 200px;
+}
+#cat {
+	position: relative;
+	bottom: 120px;
+	right: 120px;
+}
+#dog {
+	position: absolute;
+	left: 450px;
 }
