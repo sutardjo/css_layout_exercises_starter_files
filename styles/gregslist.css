@@ -23,3 +23,34 @@ nav {
   display: inline-block;
   padding-right: 20px;
 }
+.search {
+  padding-top: 100px;
+  padding-left: 75px;
+}
+.search input {
+  height: 45px;
+}
+#searchbox {
+  width: 500px;
+  padding-left: 20px;
+}
+#magnifying-glass {
+  width: 45px;
+  height: auto;
+  border: 1px solid lightgray;
+  position: fixed;
+  margin-left: 4px;
+}
+#search_label {
+  display: block;
+}
+.pagination {
+  border: 1px solid gray;
+  height: 50px;
+  margin: 20px;
+  width: 300px;
+}
+.block {
+    display: inline-block;
+    margin: auto;
+}
