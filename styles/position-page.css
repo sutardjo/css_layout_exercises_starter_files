@@ -22,3 +22,12 @@ img	{
 	border-radius: 60%;
 	border: 1px solid black;
 }
+.greenbox {
+	border: 10px dotted green;
+	height: 300px;
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(50%);
+}
