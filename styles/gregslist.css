@@ -43,14 +43,32 @@ nav {
 }
 #search_label {
   display: block;
+  margin-bottom: 10px;
 }
 .pagination {
-  border: 1px solid gray;
+  border: 1px solid lightgray;
   height: 50px;
-  margin: 20px;
-  width: 300px;
+  margin-top: 40px;
+  width: 400px;
+  margin-left: 75px;
+  border-radius: 5px;
 }
 .block {
     display: inline-block;
     margin: auto;
+    text-align: center;
+    padding: 15px 10px 10px 10px;
+}
+.previous {
+  border-right: 1px solid lightgray;
+  height: 100%;
+  width: 100px;
+}
+.next {
+  border-left: 1px solid lightgray;
+  height: 100%;
+  width: 100px;
+}
+.count {
+  width: 180px;
 }
