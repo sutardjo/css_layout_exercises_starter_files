@@ -1,0 +1,25 @@
+html  {
+  font-family: Arial;
+}
+nav {
+  position: fixed;
+  background-color: lightgray;
+  width: 100%;
+  padding-top: 10px
+}
+#home {
+  color: black;
+  padding-left: 10px;
+  font-weight: bold;
+  position: absolute;
+}
+.nav_links {
+  list-style: none;
+  color: purple;
+  padding-right: 10px;
+  text-align: right;
+}
+.nav_links > li {
+  display: inline-block;
+  padding-right: 20px;
+}
